@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Portfolio Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <img src="a.png" alt="icon" style="width: 40px; height: 40px;">
+                    <div class="logo-text">James</div>
+                </div>
+                <nav>
+                    <div class="togglebntn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aim.html">Aim</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="a.png" id="logo" alt="Logo">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm a <span id="type">Frontend Developer</span></h5>
+                    <h1>James</h1>
+                    <p>I am a developer that loves doing it for fun. I have created tons of projects and helped a lot of people
+                        with them. I am looking to be hired and work to improve my skills, also use it for good use for other people.
+                    </p>
+                    <div class="btn-group">
+                    <a href="./files/resume.txt" download='resume' class="btn">Download CV</a>
+                    <a href="/contact.html" class="btn">Contact</a>
+                    </div>
+                    <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+        var typed = new Typed('#type', {
+        strings: ['Frontend Developer', 'Backend Developer', 'Web Developer'],
+        smartBackspace: true,
+        typeSpeed: 100,
+        loop: true
+        });
+        </script>
+</body>
+</html>
